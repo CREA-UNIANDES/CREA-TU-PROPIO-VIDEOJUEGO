@@ -1,0 +1,60 @@
+<!--
+   Archivo HTML con el esqueleto de Mario
+   Autor: CREA Uniandes (crea@uniandes.edu.co)
+   Fecha de creación: 21/01/2025
+   Última modificación: 07/03/2025
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recolector Mario</title>
+    <!-- Conexión a juego css -->
+    <link rel="stylesheet" href="juego.css">
+</head>
+<body>
+    <div id="game-container">
+        <h1>Recolector de Mario</h1>
+        
+        <!-- Contenedor de puntaje -->
+        <div id="score-container">
+            Puntos: <span id="score">0</span>
+            <div id="high-score">Mejor puntuación: 0</div>
+        </div>
+
+        <!-- Área de juego -->
+        <div id="game-area">
+            <!-- Personaje jugable -->
+            <div id="character"></div>
+            
+            <!-- Mensaje de Game Over -->
+            <div id="game-over-message" class="hidden">
+                <h2>¡GAME OVER!</h2>
+                <p>Pulsa cualquier flecha para volver a jugar</p>
+            </div>
+        </div>
+        <div id="hearts-container">
+            <img src="../../../Assets/HongoVerde.png" class="heart">
+            <img src="../../../Assets/HongoVerde.png" class="heart">
+            <img src="../../../Assets/HongoVerde.png" class="heart"> 
+            <img src="../../../Assets/HongoVerde.png" class="heart">
+            <img src="../../../Assets/HongoVerde.png" class="heart">
+            <img src="../../../Assets/HongoVerde.png" class="heart">
+            <img src="../../../Assets/HongoVerde.png" class="heart">
+        </div>
+    </div>
+
+    <!-- Sonidos del juego -->
+    <audio id="sonidoPunto" src="../../../Assets/Punto.wav" preload="auto"></audio>
+    <audio id="sonidoPerdida" src="../../../Assets/Perdida.wav" preload="auto"></audio>
+    <audio id="sonidoGameOver" src="../../../Assets/GameOver.wav" preload="auto"></audio>
+
+    <!-- Conexión al archivo de lógica, luego el de juego -->
+    <script src="logica.js"></script>
+    <script src="juego.js"></script>
+</body>
+</html>
+
+
+
