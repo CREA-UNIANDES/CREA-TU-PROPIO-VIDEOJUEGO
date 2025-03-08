@@ -67,8 +67,8 @@ h1 {
 
 /* Estilo para los elementos que caen */
 .objeto-cayendo {
-    width: 55px;
-    height: 55px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     background-size: contain;
     background-repeat: no-repeat;
