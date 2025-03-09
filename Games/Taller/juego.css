@@ -77,6 +77,9 @@ h1 {
 
 /* Estilos para los objetos que caen */
 /* Tarea 4: Agrega 3 objetos que den puntos positivos */
+.objeto-bot {
+    background-image: url('../../Assets/CREABOT.png');
+}
 
 /* Tarea 9: Agrega el objeto que quita las vidas */
 /* Puede ser cualquier objeto que desees */
