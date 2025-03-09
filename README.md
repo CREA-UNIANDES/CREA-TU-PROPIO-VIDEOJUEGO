@@ -1,5 +1,5 @@
 <h1 align="center">
-<img src="https://github.com/user-attachments/assets/86c05d1c-e304-4ab5-af54-42ef7de1d6dc" alt="Banner" style="width:100%;"/>
+<img src="https://github.com/CREA-UNIANDES/CREA-TU-PROPIO-VIDEOJUEGO/blob/main/Docs/Banner.png" alt="Banner" style="width:100%;"/>
   ¡CREA tu Propio Videojuego!
 </h1>
 
@@ -161,5 +161,5 @@ Este taller ha sido desarrollado por el equipo de CREA de la Universidad de los 
 ---
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/5ad00bf2-2d6c-47cc-b319-d88a87a96700" alt="Logo Universidad de los Andes" height="300"/>
+  <img src="https://github.com/CREA-UNIANDES/CREA-TU-PROPIO-VIDEOJUEGO/blob/main/Docs/CREA.png" alt="Logo Universidad de los Andes" height="300"/>
 </p>
