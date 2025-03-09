@@ -96,13 +96,13 @@ h1 {
 .objeto-virus {
     background-image: url('../../Assets/VirusRojo.png');
 }
-/* Tarea 11: Agrega el objeto que devuelve las vidas */
+/* Tarea 12: Agrega el objeto que devuelve las vidas */
 /* Puede ser cualquier objeto que desees */
 /* Lo importante es que su nombre coincida con la clase que creaste en el paso anterior */
 .objeto-hamburguesa {
     background-image: url('../../Assets/Hamburguesa.png');
 }
-/* Tarea 13: Agrega el objeto que acaba el juego */
+/* Tarea 14: Agrega el objeto que acaba el juego */
 /* Puede ser cualquier objeto que desees */
 /* Lo importante es que su nombre coincida con la clase que creaste en el paso anterior */
 .objeto-vinchi {

@@ -50,24 +50,6 @@ OBJETOS = [
         clase: 'objeto-virus',  // Clase CSS para dar estilo
         puntos: -1,            // Puntos que da al recogerlo
         probabilidad: 0.15    // Probabilidad de que aparezca (entre 0 y 1)
-    },
-    // Tarea 10: Agrega 1 objeto que devuelva vidas
-    // Ayuda: ¿Debería dar puntos? ¿Podemos agregar otro atributo?
-    { 
-        tipo: 'hamburguesa',          // Nombre del objeto
-        clase: 'objeto-hamburguesa',  // Clase CSS para dar estilo
-        puntos: 0,            // Puntos que da al recogerlo
-        vidaExtra: true,      // Indica que da vida extra
-        probabilidad: 0.10    // Probabilidad de que aparezca (entre 0 y 1)
-    },
-    // Tarea 12: Agrega 1 objeto que termine el juego
-    // Ayuda: Recuerda lo que hicimos anteriormente (gameOver)
-    { 
-        tipo: 'vinchi',          // Nombre del objeto
-        clase: 'objeto-vinchi',  // Clase CSS para dar estilo
-        puntos: 0,            // Puntos que da al recogerlo
-        gameOver: true,      // Indica que termina el juego
-        probabilidad: 0.15    // Probabilidad de que aparezca (entre 0 y 1)
     }
 ];
 
@@ -86,26 +68,9 @@ function crearCorazones() {
     }
 }
 
-// Tarea 14: Completa la función para reproducir sonidos
-function reproducirSonido(tipo) {
-    switch(tipo) {
-        case 'punto':
-            document.getElementById('sonidoPunto').currentTime = 0; // Tarea 14: Introducir el sonido apropiado
-            document.getElementById('sonidoPunto').play(); // Tarea 14:
-            break;
-        case 'perdida':
-            document.getElementById('sonidoPerdida').currentTime = 0; // Tarea 14:
-            document.getElementById('sonidoPerdida').play(); // Tarea 14:
-            break;
-        case 'gameover':
-            document.getElementById('sonidoGameOver').currentTime = 0; // Tarea 14:
-            document.getElementById('sonidoGameOver').play(); // Tarea 14:
-            break;
-    }
-}
-
-// Función para actualizar vidas visualmente, compatible con la usada en logica.js
+// Función para actualizar vidas visualmente
 function actualizarVidasVisualmente() {
+    /*
     console.log("Actualizando vidas visualmente:", vidas);
     
     // Obtener el contenedor de corazones
@@ -128,16 +93,35 @@ function actualizarVidasVisualmente() {
     }
     
     // Actualizar cada corazón
-    // Tarea 8: Completa la función
+    // Tarea 10: Completa la función
     for (let i = 0; i < corazones.length; i++) {
         if (i < vidas) {
-            corazones[i].src = '../../Assets/CorazónRojo.png'; // Tarea 8: Imagen para vida llena
+            corazones[i].src = ''; // Tarea 10: Imagen para vida llena
         } else {
-            corazones[i].src = '../../Assets/CorazónVacío.png'; // Tarea 8: Imagen para vida vacía
+            corazones[i].src = ''; // Tarea 10: Imagen para vida vacía
         }
         
         // Asegurarse de que el corazón sea visible
         corazones[i].style.display = 'inline-block';
+    }
+    */
+}
+
+// Tarea 15: Completa la función para reproducir sonidos
+function reproducirSonido(tipo) {
+    switch(tipo) {
+        case 'punto':
+            document.getElementById('sonidoPunto').currentTime = 0; // Tarea 14: Introducir el sonido apropiado
+            document.getElementById('sonidoPunto').play(); // Tarea 14:
+            break;
+        case 'perdida':
+            document.getElementById('sonidoPerdida').currentTime = 0; // Tarea 14:
+            document.getElementById('sonidoPerdida').play(); // Tarea 14:
+            break;
+        case 'gameover':
+            document.getElementById('sonidoGameOver').currentTime = 0; // Tarea 14:
+            document.getElementById('sonidoGameOver').play(); // Tarea 14:
+            break;
     }
 }
 

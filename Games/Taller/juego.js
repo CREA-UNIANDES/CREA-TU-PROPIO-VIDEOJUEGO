@@ -28,10 +28,10 @@ OBJETOS = [
     // Tarea 8: Agrega 1 objeto que quite vidas
     // Ayuda: Los puntos negativos quitan vidas
    
-    // Tarea 10: Agrega 1 objeto que devuelva vidas
+    // Tarea 11: Agrega 1 objeto que devuelva vidas
     // Ayuda: ¿Debería dar puntos? ¿Podemos agregar otro atributo?
 
-    // Tarea 12: Agrega 1 objeto que termine el juego
+    // Tarea 13: Agrega 1 objeto que termine el juego
     // Ayuda: Recuerda lo que hicimos anteriormente (gameOver)
     
 ];
@@ -53,27 +53,7 @@ function crearCorazones() {
     */
 }
 
-// Tarea 14: Completa la función para reproducir sonidos
-function reproducirSonido(tipo) {
-    /*
-    switch(tipo) {
-        case 'punto':
-            document.getElementById('').currentTime = 0; // Tarea 14: Introducir el sonido apropiado
-            document.getElementById('').play(); // Tarea 14:
-            break;
-        case 'perdida':
-            document.getElementById('').currentTime = 0; // Tarea 14:
-            document.getElementById('').play(); // Tarea 14:
-            break;
-        case 'gameover':
-            document.getElementById('').currentTime = 0; // Tarea 14:
-            document.getElementById('').play(); // Tarea 14:
-            break;
-    }
-    */
-}
-
-// Función para actualizar vidas visualmente, compatible con la usada en logica.js
+// Función para actualizar vidas visualmente
 function actualizarVidasVisualmente() {
     /*
     console.log("Actualizando vidas visualmente:", vidas);
@@ -98,16 +78,36 @@ function actualizarVidasVisualmente() {
     }
     
     // Actualizar cada corazón
-    // Tarea 8: Completa la función
+    // Tarea 10: Completa la función
     for (let i = 0; i < corazones.length; i++) {
         if (i < vidas) {
-            corazones[i].src = ''; // Tarea 8: Imagen para vida llena
+            corazones[i].src = ''; // Tarea 10: Imagen para vida llena
         } else {
-            corazones[i].src = ''; // Tarea 8: Imagen para vida vacía
+            corazones[i].src = ''; // Tarea 10: Imagen para vida vacía
         }
         
         // Asegurarse de que el corazón sea visible
         corazones[i].style.display = 'inline-block';
+    }
+    */
+}
+
+// Tarea 15: Completa la función para reproducir sonidos
+function reproducirSonido(tipo) {
+    /*
+    switch(tipo) {
+        case 'punto':
+            document.getElementById('').currentTime = 0; // Tarea 14: Introducir el sonido apropiado
+            document.getElementById('').play(); // Tarea 14:
+            break;
+        case 'perdida':
+            document.getElementById('').currentTime = 0; // Tarea 14:
+            document.getElementById('').play(); // Tarea 14:
+            break;
+        case 'gameover':
+            document.getElementById('').currentTime = 0; // Tarea 14:
+            document.getElementById('').play(); // Tarea 14:
+            break;
     }
     */
 }
