@@ -158,12 +158,12 @@ El taller está estructurado en tareas progresivas que te guiarán a través del
 Este taller ha sido desarrollado por el equipo de CREA de la Universidad de los Andes, bajo la supervisión de:
 
 - <a href="https://www.linkedin.com/in/julián-27-mora/" target="_blank">Julián Camilo Mora Valbuena</a>
----
 
 ## Enlaces
 
 - <a href="https://forms.office.com/pages/responsepage.aspx?id=fAS9-kj_KkmLu4-YufucypGRd9hBUhFEhkomsdF4eXZUNU5WR1lZTDVINjM0RzE3Nkk2UlBHQ1BXTi4u&origin=QRCode&qrcodeorigin=presentation&route=shorturl" target="_blank">Encuesta</a>
 - <a href="https://drive.google.com/drive/mobile/folders/1dilZXLVhG1pahZuqgVnTltLlmt1KhF7B?usp=sharing" target="_blank">Drive</a>
+---
 
 <p align="center">
   <img src="https://github.com/CREA-UNIANDES/CREA-TU-PROPIO-VIDEOJUEGO/blob/main/Docs/CREA.png" alt="Logo Universidad de los Andes" height="300"/>
