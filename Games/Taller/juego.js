@@ -5,35 +5,26 @@
  * Última modificación: 07/03/2025
  */
 
-VELOCIDAD_PERSONAJE = 0; // Tarea 3: Cambiar la velocidad del personaje (ejemplo 20)
-
-VELOCIDAD_CAIDA = 0; // Tarea 3: Cambiar la velocidad de caída de los objetos (ejemplo 3)
-
-INTERVALO_CREACION = 0; // Tarea 3: Cambiar la frecuencia de aparición de objetos (ejemplo 1000)
+// Tarea 3: Cambiar la velocidad del personaje (ejemplo 20)
+VELOCIDAD_PERSONAJE = 0; 
+// Tarea 3: Cambiar la velocidad de caída de los objetos (ejemplo 3)
+VELOCIDAD_CAIDA = 0; 
+// Tarea 3: Cambiar la frecuencia de aparición de objetos (ejemplo 1000)
+INTERVALO_CREACION = 0; 
 
 // Tarea 5: Crea el número de vidas iniciales y máximas (VIDAS_INICIALES, VIDAS_TOTAL)
-
 
 // Cada objeto debe tener: tipo, clase, puntos, y probabilidad
 // La suma de todas las probabilidades debe ser menor o igual a 1
 OBJETOS = [
     { 
         tipo: 'bot',          // Nombre del objeto
-        clase: 'objeto-bot',  // Clase CSS para dar estilo
+        clase: 'objeto-bot',  // Conexión con CSS
         puntos: 1,            // Puntos que da al recogerlo
         probabilidad: 0.25    // Probabilidad de que aparezca (entre 0 y 1)
     }
     // Tarea 4: Agrega 3 objetos que den puntos positivos
 
-    // Tarea 8: Agrega 1 objeto que quite vidas
-    // Ayuda: Los puntos negativos quitan vidas
-   
-    // Tarea 11: Agrega 1 objeto que devuelva vidas
-    // Ayuda: ¿Debería dar puntos? ¿Podemos agregar otro atributo?
-
-    // Tarea 13: Agrega 1 objeto que termine el juego
-    // Ayuda: Recuerda lo que hicimos anteriormente (gameOver)
-    
 ];
 
 // Tarea 6: Completa la función para crear los corazones
@@ -78,12 +69,12 @@ function actualizarVidasVisualmente() {
     }
     
     // Actualizar cada corazón
-    // Tarea 10: Completa la función
+    // Tarea 8: Completa la función
     for (let i = 0; i < corazones.length; i++) {
         if (i < vidas) {
-            corazones[i].src = ''; // Tarea 10: Imagen para vida llena
+            corazones[i].src = ''; // Tarea 8: Imagen para vida llena
         } else {
-            corazones[i].src = ''; // Tarea 10: Imagen para vida vacía
+            corazones[i].src = ''; // Tarea 8: Imagen para vida vacía
         }
         
         // Asegurarse de que el corazón sea visible
@@ -92,21 +83,21 @@ function actualizarVidasVisualmente() {
     */
 }
 
-// Tarea 15: Completa la función para reproducir sonidos
+// Tarea 11: Completa la función para reproducir sonidos
 function reproducirSonido(tipo) {
     /*
     switch(tipo) {
         case 'punto':
-            document.getElementById('').currentTime = 0; // Tarea 14: Introducir el sonido apropiado
-            document.getElementById('').play(); // Tarea 14:
+            document.getElementById('').currentTime = 0; 
+            document.getElementById('').play(); 
             break;
         case 'perdida':
-            document.getElementById('').currentTime = 0; // Tarea 14:
-            document.getElementById('').play(); // Tarea 14:
+            document.getElementById('').currentTime = 0; 
+            document.getElementById('').play(); 
             break;
         case 'gameover':
-            document.getElementById('').currentTime = 0; // Tarea 14:
-            document.getElementById('').play(); // Tarea 14:
+            document.getElementById('').currentTime = 0; 
+            document.getElementById('').play(); 
             break;
     }
     */
